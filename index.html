@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>JD Realty — Find Your Dream Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">JD <span>REALTY</span></div>
+      <nav class="nav">
+        <a href="#">Buy</a>
+        <a href="#">Sell</a>
+        <a href="#">About</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+      <button class="login-btn">Login / Signup</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="hero.png" alt="Luxury house" class="hero-image" />
+      <div class="hero-overlay">
+        <h1>Find Your Dream Home</h1>
+        <p class="search-bar">
+          <input id="search-input" placeholder="Enter city, address, or MLS..." />
+          <button id="search-btn">Search Listings</button>
+        </p>
+      </div>
+    </section>
+
+    <section class="container featured">
+      <h2>Featured Properties</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="hero.png" alt="Property" />
+          <div class="card-body">
+            <h3>$2,100,000</h3>
+            <p>4 BD | 3 BA | 2,800 sqft — Beverly Hills, CA</p>
+            <button class="btn">View Details</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="hero.png" alt="Property" />
+          <div class="card-body">
+            <h3>$1,900,000</h3>
+            <p>3 BD | 2 BA | 2,200 sqft — Newport Beach, CA</p>
+            <button class="btn">View Details</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="hero.png" alt="Property" />
+          <div class="card-body">
+            <h3>$2,350,000</h3>
+            <p>5 BD | 4 BA | 3,500 sqft — San Diego, CA</p>
+            <button class="btn">View Details</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container about">
+      <div class="about-left">
+        <img src="hero.png" alt="Agent" />
+      </div>
+      <div class="about-right">
+        <h3>About John</h3>
+        <p>Local expertise, global reach. John Doe is a trusted name in luxury real estate, helping clients sell and buy at the right price.</p>
+        <a class="btn" href="#">Read More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> JD Realty — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
